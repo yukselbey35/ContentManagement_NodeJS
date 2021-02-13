@@ -7,7 +7,7 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "boot": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"

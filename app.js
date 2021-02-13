@@ -11,6 +11,14 @@ app.get('/', (req, res)=>{
     res.sendFile(path.resolve(__dirname, 'website/index.html'))
 })
 
+app.get('/about.html', (req, res)=>{
+    res.sendFile(path.resolve(__dirname, 'website/about.html'))
+})
+
+app.get('/blog.html', (req, res)=>{
+    res.sendFile(path.resolve(__dirname, 'website/blog.html'))
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
   })
